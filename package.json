@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcdw/hide-in-pixel.git"
+    "url": "git+https://github.com/tcdw/node-hide-in-pixel.git"
   },
   "keywords": [
     "hide",
@@ -25,7 +25,7 @@
   "author": "tcdw <admin@tcdw.net>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/tcdw/hide-in-pixel/issues"
+    "url": "https://github.com/tcdw/node-hide-in-pixel/issues"
   },
-  "homepage": "https://github.com/tcdw/hide-in-pixel#readme"
+  "homepage": "https://github.com/tcdw/node-hide-in-pixel#readme"
 }
