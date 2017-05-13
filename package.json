@@ -1,0 +1,31 @@
+{
+  "name": "hide-in-pixel",
+  "version": "1.0.0",
+  "description": "hide a file in a lossless image!",
+  "main": "index.js",
+  "dependencies": {
+    "bmp-js": "^0.0.3",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcdw/hide-in-pixel.git"
+  },
+  "keywords": [
+    "hide",
+    "pixel",
+    "bitmap",
+    "toy",
+    "cli"
+  ],
+  "author": "tcdw <admin@tcdw.net>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tcdw/hide-in-pixel/issues"
+  },
+  "homepage": "https://github.com/tcdw/hide-in-pixel#readme"
+}
