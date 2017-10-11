@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 
 showHelp = function () {
-    console.log(fs.readFileSync(path.resolve(__dirname, 'docs/bin2bmp-help'), {encoding: 'utf8'}));
+    console.log(fs.readFileSync(path.resolve(__dirname, 'docs/bin-bmp-help'), {encoding: 'utf8'}));
 }
 
 if (typeof argv._[0] == "undefined") {
@@ -19,6 +19,8 @@ switch (argv._[0]) {
     case "write":
         require("./lib/bin-bmp/write")(
             argv._[1],
+            argv._[2],
+            argv._[3],
             argv.bare || false,
             argv.stdout || false
         );

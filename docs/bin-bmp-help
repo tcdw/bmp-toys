@@ -1,0 +1,11 @@
+Usage: bin-bmp <command> [arguments]
+Commands:
+    write    inputFile width height [--stdout]
+    read     inputImg [--stdout]
+
+    help     Print this help information and exit
+    version  Print version and exit
+
+Note:
+* Please input reasonable width and height values.
+* NEVER convert outputed image to ANY lossy format, or your hidden data will be lost.

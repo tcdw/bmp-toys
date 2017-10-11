@@ -1,7 +1,7 @@
 Usage: hide-in-pixel <command> [arguments]
 Commands:
-    write    <inputImg> <inputFile> [--bare] [--stdout]
-    read     <inputImg> [--stdout]
+    write    inputImg inputFile [--bare] [--stdout]
+    read     inputImg [--stdout]
 
     help     Print this help information and exit
     credit   Print credit information and exit
@@ -10,4 +10,3 @@ Commands:
 Note:
 * Image being inputed must be BMP format. If not, use Imagemagick `convert` command first.
 * NEVER convert outputed image to ANY lossy format, or your hidden data will be lost.
-* Use `file` command to identify file you read from an image.
