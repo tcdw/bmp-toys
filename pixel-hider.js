@@ -6,11 +6,11 @@ const path = require("path");
 const fs = require("fs");
 
 showHelp = function () {
-    console.log(fs.readFileSync(path.resolve(__dirname, 'HELP'), {encoding: 'utf8'}));
+    console.log(fs.readFileSync(path.resolve(__dirname, 'docs/pixel-hider-help'), {encoding: 'utf8'}));
 }
 
 showCredit = function () {
-    console.log(fs.readFileSync(path.resolve(__dirname, 'CREDIT'), {encoding: 'utf8'}));
+    console.log(fs.readFileSync(path.resolve(__dirname, 'docs/pixel-hider-credit'), {encoding: 'utf8'}));
 }
 
 if (typeof argv._[0] == "undefined") {
@@ -21,7 +21,7 @@ if (typeof argv._[0] == "undefined") {
 
 switch (argv._[0]) {
     case "write":
-        require("./lib/write")(
+        require("./lib/pixel-hider/write")(
             argv._[1],
             argv._[2],
             argv.bare || false,
@@ -29,7 +29,7 @@ switch (argv._[0]) {
         );
         break;
     case "read":
-        require("./lib/read")(
+        require("./lib/pixel-hider/read")(
             argv._[1],
             argv.stdout || false
         );

@@ -1,11 +1,15 @@
 {
-  "name": "hide-in-pixel",
+  "name": "bmp-toys",
   "version": "1.0.0",
-  "description": "hide a file in a lossless image!",
+  "description": "fun bitmap toys",
   "main": "index.js",
   "dependencies": {
     "bmp-js": "^0.0.3",
     "minimist": "^1.2.0"
+  },
+  "bin": {
+    "pixel-hider": "./pixel-hider.js",
+    "bin2bmp": "./bin2bmp.js"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcdw/node-hide-in-pixel.git"
+    "url": "git+https://github.com/tcdw/bmp-toys.git"
   },
   "keywords": [
     "hide",
@@ -25,7 +29,8 @@
   "author": "tcdw <admin@tcdw.net>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/tcdw/node-hide-in-pixel/issues"
+    "url": "https://github.com/tcdw/bmp-toys/issues"
   },
-  "homepage": "https://github.com/tcdw/node-hide-in-pixel#readme"
+  "homepage": "https://github.com/tcdw/bmp-toys#readme",
+  "preferGlobal": true
 }
